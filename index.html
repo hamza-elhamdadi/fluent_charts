@@ -22,23 +22,37 @@
 
 
     <script>
-        // let plot_color = "#222";
-        let plot_color = "#ddd";
+        let plot_color = "#222";
+        // let plot_color = "#ddd";
+
+        // let data = [
+        //     // positive levers
+        //     [ {name: 'First Class', reward: 1}, {name: 'Seventh Heaven', reward: 3} ],
+        //     [ {name: 'First Class', reward: 3}, {name: 'Seventh Heaven', reward: 1} ],
+        //     // negative levers
+        //     [ {name: 'Abduction', reward: 1}, {name: 'Motormouth', reward: 3} ],
+        //     [ {name: 'Abduction', reward: 3}, {name: 'Motormouth', reward: 1} ],
+        //     // neutral levers
+        //     [ {name: 'A', reward: 1}, {name: 'B', reward: 3} ],
+        //     [ {name: 'B', reward: 1}, {name: 'A', reward: 3} ]
+        // ]
 
         let data = [
             // positive levers
-            [ {name: 'First Class', reward: 1}, {name: 'Seventh Heaven', reward: 3} ],
-            [ {name: 'First Class', reward: 3}, {name: 'Seventh Heaven', reward: 1} ],
+            [ {name: 'First Class', reward: 1}, {name: 'Seventh Heaven', reward: 3}, {name: 'Sensational', reward: 2}, {name: 'Felicity', reward: 0}, {name: 'Unsurpassable', reward: 1} ],
+            [ {name: 'First Class', reward: 3}, {name: 'Seventh Heaven', reward: 1}, {name: 'Sensational', reward: 2}, {name: 'Felicity', reward: 0}, {name: 'Unsurpassable', reward: 1} ],
             // negative levers
-            [ {name: 'Abduction', reward: 1}, {name: 'Motormouth', reward: 3} ],
-            [ {name: 'Abduction', reward: 3}, {name: 'Motormouth', reward: 1} ],
+            [ {name: 'Abduction', reward: 1}, {name: 'Motormouth', reward: 3}, {name: 'Disrespect', reward: 2}, {name: 'Misdirect', reward: 0}, {name: 'Sorry', reward: 1} ],
+            [ {name: 'Abduction', reward: 3}, {name: 'Motormouth', reward: 1}, {name: 'Disrespect', reward: 2}, {name: 'Misdirect', reward: 0}, {name: 'Sorry', reward: 1} ],
             // neutral levers
-            [ {name: 'A', reward: 1}, {name: 'B', reward: 3} ],
-            [ {name: 'B', reward: 1}, {name: 'A', reward: 3} ]
+            [ {name: 'A', reward: 1}, {name: 'B', reward: 3}, {name: 'C', reward: 2}, {name: 'D', reward: 0}, {name: 'E', reward: 1} ],
+            [ {name: 'A', reward: 3}, {name: 'B', reward: 1}, {name: 'C', reward: 2}, {name: 'D', reward: 0}, {name: 'E', reward: 1} ]
         ]
 
         let i = 5
 
+        let plotWidth = 800, plotHeight = 400, tfSize = 20,  afSize = 18;
+        // let plotWidth = 264, plotHeight = 132, tfSize = 6.6, afSize = 5.94;
 
         // Assign the specification to a local variable vlSpec.
         var vlSpec = {
@@ -51,15 +65,15 @@
         },
         title: {
             text: ["Average Reward (per token) for Each Lever"],
-            fontSize: 20,
-            offset: 20,
+            fontSize: tfSize,
+            offset: tfSize,
             color: plot_color
         },
         data: {
             values: data[i]
         },
-        width: 800,
-        height: 400,
+        width: plotWidth,
+        height: plotHeight,
         mark: { type: 'bar', width: {band: 0.5}},
         encoding: {
             x: {
@@ -67,9 +81,9 @@
             type: 'nominal',
             axis: {
                 title: 'Lever Name',
-                titleFontSize: 18,
+                titleFontSize: afSize,
                 labelColor: plot_color,
-                labelFontSize: 18,
+                labelFontSize: afSize,
                 domainColor: plot_color,
                 tickColor: plot_color,
                 titleColor: plot_color,
@@ -83,8 +97,8 @@
             type: 'quantitative',
             axis: {
                 title: 'Average Reward (per token)',
-                titleFontSize: 18,
-                labelFontSize: 18,
+                titleFontSize: afSize,
+                labelFontSize: afSize,
                 labelColor: plot_color,
                 domainColor: plot_color,
                 tickColor: plot_color,
