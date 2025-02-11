@@ -2,802 +2,1002 @@
     "nodes": [
         {
             "group": "A",
+            "value": 1.1515409008139352,
             "index": 1
         },
         {
             "group": "A",
+            "value": 1.0912546653626478,
             "index": 2
         },
         {
             "group": "A",
+            "value": 1.174179996064503,
             "index": 3
         },
         {
             "group": "A",
+            "value": 0.5768231132947481,
             "index": 4
         },
         {
             "group": "A",
+            "value": 1.2567844747673063,
             "index": 5
         },
         {
             "group": "A",
+            "value": 0.7273027922695585,
             "index": 6
         },
         {
             "group": "A",
+            "value": 1.3583790770562187,
             "index": 7
         },
         {
             "group": "A",
+            "value": 0.9330215395906164,
             "index": 8
         },
         {
             "group": "A",
+            "value": 0.9649189123319348,
             "index": 9
         },
         {
             "group": "A",
+            "value": 1.0412255902929712,
             "index": 10
         },
         {
             "group": "A",
+            "value": 0.8782515338061238,
             "index": 11
         },
         {
             "group": "A",
+            "value": 0.9501784756349728,
             "index": 12
         },
         {
             "group": "A",
+            "value": 0.863500313317347,
             "index": 13
         },
         {
             "group": "A",
+            "value": 0.5531954054987711,
             "index": 14
         },
         {
             "group": "A",
+            "value": 0.9121672410671767,
             "index": 15
         },
         {
             "group": "A",
+            "value": 0.7731554193255017,
             "index": 16
         },
         {
             "group": "A",
+            "value": 1.2368613918057663,
             "index": 17
         },
         {
             "group": "A",
+            "value": 1.0710790011167588,
             "index": 18
         },
         {
             "group": "A",
+            "value": 1.002399806444819,
             "index": 19
         },
         {
             "group": "A",
+            "value": 1.019362281440712,
             "index": 20
         },
         {
             "group": "A",
+            "value": 0.8339364859762033,
             "index": 21
         },
         {
             "group": "A",
+            "value": 0.9868761408927739,
             "index": 22
         },
         {
             "group": "A",
+            "value": 0.6291103505754969,
             "index": 23
         },
         {
             "group": "A",
+            "value": 1.451055609817585,
             "index": 24
         },
         {
             "group": "A",
+            "value": 1.073610444515538,
             "index": 25
         },
         {
             "group": "A",
+            "value": 1.1523136692052778,
             "index": 26
         },
         {
             "group": "A",
+            "value": 0.6603269571159439,
             "index": 27
         },
         {
             "group": "A",
+            "value": 0.8730872034615078,
             "index": 28
         },
         {
             "group": "A",
+            "value": 1.2806535703447932,
             "index": 29
         },
         {
             "group": "A",
+            "value": 1.6208032304027258,
             "index": 30
         },
         {
             "group": "A",
+            "value": 1.1698474469685296,
             "index": 31
         },
         {
             "group": "A",
+            "value": 0.561642163478079,
             "index": 32
         },
         {
             "group": "A",
+            "value": 0.8305368793146033,
             "index": 33
         },
         {
             "group": "A",
+            "value": 1.3586774994268844,
             "index": 34
         },
         {
             "group": "A",
+            "value": 0.8944198219373566,
             "index": 35
         },
         {
             "group": "A",
+            "value": 0.8366983135669398,
             "index": 36
         },
         {
             "group": "A",
+            "value": 0.9693967161837861,
             "index": 37
         },
         {
             "group": "A",
+            "value": 0.9729496244255813,
             "index": 38
         },
         {
             "group": "A",
+            "value": 0.6967989599844111,
             "index": 39
         },
         {
             "group": "A",
+            "value": 1.0545633475991594,
             "index": 40
         },
         {
             "group": "A",
+            "value": 0.9240487938708268,
             "index": 41
         },
         {
             "group": "A",
+            "value": 1.3180452749532068,
             "index": 42
         },
         {
             "group": "A",
+            "value": 0.6244835798180866,
             "index": 43
         },
         {
             "group": "A",
+            "value": 1.4038644164349048,
             "index": 44
         },
         {
             "group": "A",
+            "value": 1.24797955254128,
             "index": 45
         },
         {
             "group": "A",
+            "value": 0.9183513895714135,
             "index": 46
         },
         {
             "group": "A",
+            "value": 0.9532921442295247,
             "index": 47
         },
         {
             "group": "A",
+            "value": 1.12874415815642,
             "index": 48
         },
         {
             "group": "A",
+            "value": 0.25978414037158226,
             "index": 49
         },
         {
             "group": "A",
+            "value": 0.5202357628394465,
             "index": 50
         },
         {
             "group": "A",
+            "value": 0.7701692501535593,
             "index": 51
         },
         {
             "group": "A",
+            "value": 0.7310810514706836,
             "index": 52
         },
         {
             "group": "A",
+            "value": 1.290776051726509,
             "index": 53
         },
         {
             "group": "A",
+            "value": 1.2469946615773102,
             "index": 54
         },
         {
             "group": "A",
+            "value": 1.1156856399500235,
             "index": 55
         },
         {
             "group": "A",
+            "value": 0.9105894114491992,
             "index": 56
         },
         {
             "group": "A",
+            "value": 0.9820559794187619,
             "index": 57
         },
         {
             "group": "A",
+            "value": 0.7062321650129102,
             "index": 58
         },
         {
             "group": "A",
+            "value": 0.6196624030775099,
             "index": 59
         },
         {
             "group": "A",
+            "value": 0.779485236188777,
             "index": 60
         },
         {
             "group": "A",
+            "value": 0.9133906580448801,
             "index": 61
         },
         {
             "group": "A",
+            "value": 0.5847703497299548,
             "index": 62
         },
         {
             "group": "A",
+            "value": 1.1430911597559195,
             "index": 63
         },
         {
             "group": "A",
+            "value": 0.951275166460343,
             "index": 64
         },
         {
             "group": "A",
+            "value": 1.2096973947335292,
             "index": 65
         },
         {
             "group": "A",
+            "value": 1.1718838622999532,
             "index": 66
         },
         {
             "group": "A",
+            "value": 2.0510705988704823,
             "index": 67
         },
         {
             "group": "A",
+            "value": 1.080070447505302,
             "index": 68
         },
         {
             "group": "A",
+            "value": 0.8721951356081876,
             "index": 69
         },
         {
             "group": "A",
+            "value": 1.2594426915987,
             "index": 70
         },
         {
             "group": "A",
+            "value": 1.084046361358678,
             "index": 71
         },
         {
             "group": "A",
+            "value": 1.3947090777909572,
             "index": 72
         },
         {
             "group": "A",
+            "value": 0.6978689027280647,
             "index": 73
         },
         {
             "group": "A",
+            "value": 1.481743029805592,
             "index": 74
         },
         {
             "group": "A",
+            "value": 1.1654236469551962,
             "index": 75
         },
         {
             "group": "A",
+            "value": 1.2566033191673984,
             "index": 76
         },
         {
             "group": "A",
+            "value": 0.8401256398341618,
             "index": 77
         },
         {
             "group": "A",
+            "value": 1.2535258597068906,
             "index": 78
         },
         {
             "group": "A",
+            "value": 1.5842959332638538,
             "index": 79
         },
         {
             "group": "A",
+            "value": 1.2602576609725877,
             "index": 80
         },
         {
             "group": "A",
+            "value": 0.47647490064531484,
             "index": 81
         },
         {
             "group": "A",
+            "value": 1.3731653847176668,
             "index": 82
         },
         {
             "group": "A",
+            "value": 1.3439870614910305,
             "index": 83
         },
         {
             "group": "A",
+            "value": 0.9396867721841212,
             "index": 84
         },
         {
             "group": "A",
+            "value": 1.1307751811481455,
             "index": 85
         },
         {
             "group": "A",
+            "value": 1.4051749757250396,
             "index": 86
         },
         {
             "group": "A",
+            "value": 0.7915461984104183,
             "index": 87
         },
         {
             "group": "A",
+            "value": 1.0278064111585965,
             "index": 88
         },
         {
             "group": "A",
+            "value": 0.7421161900210126,
             "index": 89
         },
         {
             "group": "A",
+            "value": 1.0581187197959294,
             "index": 90
         },
         {
             "group": "A",
+            "value": 0.5578126206419043,
             "index": 91
         },
         {
             "group": "A",
+            "value": 0.7779180817436445,
             "index": 92
         },
         {
             "group": "A",
+            "value": 1.1191517750975355,
             "index": 93
         },
         {
             "group": "A",
+            "value": 0.5778124127378383,
             "index": 94
         },
         {
             "group": "A",
+            "value": 0.9204723933686427,
             "index": 95
         },
         {
             "group": "A",
+            "value": 0.46562355191483173,
             "index": 96
         },
         {
             "group": "A",
+            "value": 1.2526037592206598,
             "index": 97
         },
         {
             "group": "A",
+            "value": 1.016800410919166,
             "index": 98
         },
         {
             "group": "A",
+            "value": 0.7517242209445552,
             "index": 99
         },
         {
             "group": "A",
+            "value": 1.1816086290469348,
             "index": 100
         },
         {
             "group": "B",
+            "value": 2.9432686551207294,
             "index": 101
         },
         {
             "group": "B",
+            "value": 3.0050412019726225,
             "index": 102
         },
         {
             "group": "B",
+            "value": 2.5487802516490143,
             "index": 103
         },
         {
             "group": "B",
+            "value": 3.6277180191341563,
             "index": 104
         },
         {
             "group": "B",
+            "value": 1.966417832851669,
             "index": 105
         },
         {
             "group": "B",
+            "value": 2.488862713873235,
             "index": 106
         },
         {
             "group": "B",
+            "value": 2.856437850513281,
             "index": 107
         },
         {
             "group": "B",
+            "value": 3.29639621633956,
             "index": 108
         },
         {
             "group": "B",
+            "value": 2.8784096682540943,
             "index": 109
         },
         {
             "group": "B",
+            "value": 2.9962709809734327,
             "index": 110
         },
         {
             "group": "B",
+            "value": 3.2837169064001497,
             "index": 111
         },
         {
             "group": "B",
+            "value": 3.2158619795914185,
             "index": 112
         },
         {
             "group": "B",
+            "value": 2.8961355762734766,
             "index": 113
         },
         {
             "group": "B",
+            "value": 3.148944213953971,
             "index": 114
         },
         {
             "group": "B",
+            "value": 2.819058002281284,
             "index": 115
         },
         {
             "group": "B",
+            "value": 3.5585423340802143,
             "index": 116
         },
         {
             "group": "B",
+            "value": 3.252392986985592,
             "index": 117
         },
         {
             "group": "B",
+            "value": 3.2775979179725754,
             "index": 118
         },
         {
             "group": "B",
+            "value": 3.422469860441427,
             "index": 119
         },
         {
             "group": "B",
+            "value": 3.4027612931865225,
             "index": 120
         },
         {
             "group": "B",
+            "value": 2.59648016404111,
             "index": 121
         },
         {
             "group": "B",
+            "value": 3.0863890942199674,
             "index": 122
         },
         {
             "group": "B",
+            "value": 2.870217498579959,
             "index": 123
         },
         {
             "group": "B",
+            "value": 3.1977668666923713,
             "index": 124
         },
         {
             "group": "B",
+            "value": 2.6772065156071783,
             "index": 125
         },
         {
             "group": "B",
+            "value": 3.025000814922265,
             "index": 126
         },
         {
             "group": "B",
+            "value": 3.0083501290926202,
             "index": 127
         },
         {
             "group": "B",
+            "value": 3.087169136352689,
             "index": 128
         },
         {
             "group": "B",
+            "value": 3.370351648130959,
             "index": 129
         },
         {
             "group": "B",
+            "value": 3.0471234739185444,
             "index": 130
         },
         {
             "group": "B",
+            "value": 2.4415693592381618,
             "index": 131
         },
         {
             "group": "B",
+            "value": 2.259655957184607,
             "index": 132
         },
         {
             "group": "B",
+            "value": 3.0170721961112354,
             "index": 133
         },
         {
             "group": "B",
+            "value": 3.1856659963047016,
             "index": 134
         },
         {
             "group": "B",
+            "value": 2.6601299683516624,
             "index": 135
         },
         {
             "group": "B",
+            "value": 2.6043815559347534,
             "index": 136
         },
         {
             "group": "B",
+            "value": 2.4186112248093625,
             "index": 137
         },
         {
             "group": "B",
+            "value": 2.7851412434255405,
             "index": 138
         },
         {
             "group": "B",
+            "value": 3.5522556414661084,
             "index": 139
         },
         {
             "group": "B",
+            "value": 2.9620193194990097,
             "index": 140
         },
         {
             "group": "B",
+            "value": 2.7905611917364324,
             "index": 141
         },
         {
             "group": "B",
+            "value": 3.0900178714181985,
             "index": 142
         },
         {
             "group": "B",
+            "value": 3.2622909916957155,
             "index": 143
         },
         {
             "group": "B",
+            "value": 3.0937815818902257,
             "index": 144
         },
         {
             "group": "B",
+            "value": 3.251832570103908,
             "index": 145
         },
         {
             "group": "B",
+            "value": 2.898005603754944,
             "index": 146
         },
         {
             "group": "B",
+            "value": 3.3853394069632676,
             "index": 147
         },
         {
             "group": "B",
+            "value": 3.2909555542808486,
             "index": 148
         },
         {
             "group": "B",
+            "value": 2.9810041823692965,
             "index": 149
         },
         {
             "group": "B",
+            "value": 3.296356456257359,
             "index": 150
         },
         {
             "group": "B",
+            "value": 2.894946435881113,
             "index": 151
         },
         {
             "group": "B",
+            "value": 3.009731979911366,
             "index": 152
         },
         {
             "group": "B",
+            "value": 2.4579855814206177,
             "index": 153
         },
         {
             "group": "B",
+            "value": 3.033905172084158,
             "index": 154
         },
         {
             "group": "B",
+            "value": 3.303167036935407,
             "index": 155
         },
         {
             "group": "B",
+            "value": 2.542726554196048,
             "index": 156
         },
         {
             "group": "B",
+            "value": 3.432146017593091,
             "index": 157
         },
         {
             "group": "B",
+            "value": 2.5199106840918692,
             "index": 158
         },
         {
             "group": "B",
+            "value": 2.735616447740367,
             "index": 159
         },
         {
             "group": "B",
+            "value": 2.7496461518578466,
             "index": 160
         },
         {
             "group": "B",
+            "value": 3.249793282957137,
             "index": 161
         },
         {
             "group": "B",
+            "value": 2.891012181917038,
             "index": 162
         },
         {
             "group": "B",
+            "value": 2.8726237354903286,
             "index": 163
         },
         {
             "group": "B",
+            "value": 3.1189936732207477,
             "index": 164
         },
         {
             "group": "B",
+            "value": 2.8501974604191385,
             "index": 165
         },
         {
             "group": "B",
+            "value": 3.668227002777091,
             "index": 166
         },
         {
             "group": "B",
+            "value": 2.930705267368453,
             "index": 167
         },
         {
             "group": "B",
+            "value": 3.008774727794217,
             "index": 168
         },
         {
             "group": "B",
+            "value": 3.141322532611312,
             "index": 169
         },
         {
             "group": "B",
+            "value": 4.022906842797739,
             "index": 170
         },
         {
             "group": "B",
+            "value": 2.7062680792311324,
             "index": 171
         },
         {
             "group": "B",
+            "value": 3.0789352518518136,
             "index": 172
         },
         {
             "group": "B",
+            "value": 2.633721425680288,
             "index": 173
         },
         {
             "group": "B",
+            "value": 3.2546541965945153,
             "index": 174
         },
         {
             "group": "B",
+            "value": 3.0164681841590832,
             "index": 175
         },
         {
             "group": "B",
+            "value": 2.8230550293008987,
             "index": 176
         },
         {
             "group": "B",
+            "value": 3.207882321268212,
             "index": 177
         },
         {
             "group": "B",
+            "value": 2.7787701047999516,
             "index": 178
         },
         {
             "group": "B",
+            "value": 2.5289063322629453,
             "index": 179
         },
         {
             "group": "B",
+            "value": 2.3423351902748095,
             "index": 180
         },
         {
             "group": "B",
+            "value": 3.125793332056899,
             "index": 181
         },
         {
             "group": "B",
+            "value": 3.313441426982882,
             "index": 182
         },
         {
             "group": "B",
+            "value": 2.9407139798683493,
             "index": 183
         },
         {
             "group": "B",
+            "value": 3.0168230083221275,
             "index": 184
         },
         {
             "group": "B",
+            "value": 2.87576901123183,
             "index": 185
         },
         {
             "group": "B",
+            "value": 3.3315305729930427,
             "index": 186
         },
         {
             "group": "B",
+            "value": 2.9499296749846655,
             "index": 187
         },
         {
             "group": "B",
+            "value": 2.4102046787508895,
             "index": 188
         },
         {
             "group": "B",
+            "value": 3.0094977297233565,
             "index": 189
         },
         {
             "group": "B",
+            "value": 3.1058458957649675,
             "index": 190
         },
         {
             "group": "B",
+            "value": 2.533629137798685,
             "index": 191
         },
         {
             "group": "B",
+            "value": 2.8892653012902185,
             "index": 192
         },
         {
             "group": "B",
+            "value": 2.5183030259335117,
             "index": 193
         },
         {
             "group": "B",
+            "value": 3.347186784127767,
             "index": 194
         },
         {
             "group": "B",
+            "value": 2.6978696791377894,
             "index": 195
         },
         {
             "group": "B",
+            "value": 3.1424960138771407,
             "index": 196
         },
         {
             "group": "B",
+            "value": 3.198103238824475,
             "index": 197
         },
         {
             "group": "B",
+            "value": 3.00702250944294,
             "index": 198
         },
         {
             "group": "B",
+            "value": 3.1921873065450797,
             "index": 199
         },
         {
             "group": "B",
+            "value": 3.553737917067182,
             "index": 200
         }
     ]
