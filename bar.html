@@ -25,38 +25,38 @@
         let plot_color = "#222";
         // let plot_color = "#ddd";
 
-        // let data = [
-        //     // positive levers
-        //     [ {name: 'First Class', reward: 1}, {name: 'Seventh Heaven', reward: 3} ],
-        //     [ {name: 'First Class', reward: 3}, {name: 'Seventh Heaven', reward: 1} ],
-        //     // negative levers
-        //     [ {name: 'Abduction', reward: 1}, {name: 'Motormouth', reward: 3} ],
-        //     [ {name: 'Abduction', reward: 3}, {name: 'Motormouth', reward: 1} ],
-        //     // neutral levers
-        //     [ {name: 'A', reward: 1}, {name: 'B', reward: 3} ],
-        //     [ {name: 'B', reward: 1}, {name: 'A', reward: 3} ]
-        // ]
-
         let data = [
             // positive levers
-            [ {name: 'First Class', reward: 1}, {name: 'Seventh Heaven', reward: 3}, {name: 'Sensational', reward: 2}, {name: 'Felicity', reward: 0}, {name: 'Unsurpassable', reward: 1} ],
-            [ {name: 'First Class', reward: 3}, {name: 'Seventh Heaven', reward: 1}, {name: 'Sensational', reward: 2}, {name: 'Felicity', reward: 0}, {name: 'Unsurpassable', reward: 1} ],
-            [ {name: 'First Class', reward: 1}, {name: 'Seventh Heaven', reward: 2}, {name: 'Sensational', reward: 3}, {name: 'Felicity', reward: 0}, {name: 'Unsurpassable', reward: 1} ],
-            [ {name: 'First Class', reward: 1}, {name: 'Seventh Heaven', reward: 0}, {name: 'Sensational', reward: 2}, {name: 'Felicity', reward: 3}, {name: 'Unsurpassable', reward: 1} ],
-            [ {name: 'First Class', reward: 1}, {name: 'Seventh Heaven', reward: 1}, {name: 'Sensational', reward: 2}, {name: 'Felicity', reward: 0}, {name: 'Unsurpassable', reward: 3} ],
+            [ {name: 'First Class', reward: 1}, {name: 'Seventh Heaven', reward: 3} ],
+            [ {name: 'First Class', reward: 3}, {name: 'Seventh Heaven', reward: 1} ],
             // negative levers
-            [ {name: 'Abduction', reward: 1}, {name: 'Motormouth', reward: 3}, {name: 'Disrespect', reward: 2}, {name: 'Misdirect', reward: 0}, {name: 'Sorry', reward: 1} ],
-            [ {name: 'Abduction', reward: 3}, {name: 'Motormouth', reward: 1}, {name: 'Disrespect', reward: 2}, {name: 'Misdirect', reward: 0}, {name: 'Sorry', reward: 1} ],
-            [ {name: 'Abduction', reward: 1}, {name: 'Motormouth', reward: 2}, {name: 'Disrespect', reward: 3}, {name: 'Misdirect', reward: 0}, {name: 'Sorry', reward: 1} ],
-            [ {name: 'Abduction', reward: 1}, {name: 'Motormouth', reward: 0}, {name: 'Disrespect', reward: 2}, {name: 'Misdirect', reward: 3}, {name: 'Sorry', reward: 1} ],
-            [ {name: 'Abduction', reward: 1}, {name: 'Motormouth', reward: 1}, {name: 'Disrespect', reward: 2}, {name: 'Misdirect', reward: 0}, {name: 'Sorry', reward: 3} ],
+            [ {name: 'Abduction', reward: 1}, {name: 'Motormouth', reward: 3} ],
+            [ {name: 'Abduction', reward: 3}, {name: 'Motormouth', reward: 1} ],
             // neutral levers
-            [ {name: 'A', reward: 1}, {name: 'B', reward: 3}, {name: 'C', reward: 2}, {name: 'D', reward: 0}, {name: 'E', reward: 1} ],
-            [ {name: 'A', reward: 3}, {name: 'B', reward: 1}, {name: 'C', reward: 2}, {name: 'D', reward: 0}, {name: 'E', reward: 1} ],
-            [ {name: 'A', reward: 1}, {name: 'B', reward: 2}, {name: 'C', reward: 3}, {name: 'D', reward: 0}, {name: 'E', reward: 1} ],
-            [ {name: 'A', reward: 1}, {name: 'B', reward: 0}, {name: 'C', reward: 2}, {name: 'D', reward: 3}, {name: 'E', reward: 1} ],
-            [ {name: 'A', reward: 1}, {name: 'B', reward: 1}, {name: 'C', reward: 2}, {name: 'D', reward: 0}, {name: 'E', reward: 3} ],
+            [ {name: 'A', reward: 1}, {name: 'B', reward: 3} ],
+            [ {name: 'B', reward: 1}, {name: 'A', reward: 3} ]
         ]
+
+        // let data = [
+        //     // positive levers
+        //     [ {name: 'First Class', reward: 1}, {name: 'Seventh Heaven', reward: 3}, {name: 'Sensational', reward: 2}, {name: 'Felicity', reward: 0}, {name: 'Unsurpassable', reward: 1} ],
+        //     [ {name: 'First Class', reward: 3}, {name: 'Seventh Heaven', reward: 1}, {name: 'Sensational', reward: 2}, {name: 'Felicity', reward: 0}, {name: 'Unsurpassable', reward: 1} ],
+        //     [ {name: 'First Class', reward: 1}, {name: 'Seventh Heaven', reward: 2}, {name: 'Sensational', reward: 3}, {name: 'Felicity', reward: 0}, {name: 'Unsurpassable', reward: 1} ],
+        //     [ {name: 'First Class', reward: 1}, {name: 'Seventh Heaven', reward: 0}, {name: 'Sensational', reward: 2}, {name: 'Felicity', reward: 3}, {name: 'Unsurpassable', reward: 1} ],
+        //     [ {name: 'First Class', reward: 1}, {name: 'Seventh Heaven', reward: 1}, {name: 'Sensational', reward: 2}, {name: 'Felicity', reward: 0}, {name: 'Unsurpassable', reward: 3} ],
+        //     // negative levers
+        //     [ {name: 'Abduction', reward: 1}, {name: 'Motormouth', reward: 3}, {name: 'Disrespect', reward: 2}, {name: 'Misdirect', reward: 0}, {name: 'Sorry', reward: 1} ],
+        //     [ {name: 'Abduction', reward: 3}, {name: 'Motormouth', reward: 1}, {name: 'Disrespect', reward: 2}, {name: 'Misdirect', reward: 0}, {name: 'Sorry', reward: 1} ],
+        //     [ {name: 'Abduction', reward: 1}, {name: 'Motormouth', reward: 2}, {name: 'Disrespect', reward: 3}, {name: 'Misdirect', reward: 0}, {name: 'Sorry', reward: 1} ],
+        //     [ {name: 'Abduction', reward: 1}, {name: 'Motormouth', reward: 0}, {name: 'Disrespect', reward: 2}, {name: 'Misdirect', reward: 3}, {name: 'Sorry', reward: 1} ],
+        //     [ {name: 'Abduction', reward: 1}, {name: 'Motormouth', reward: 1}, {name: 'Disrespect', reward: 2}, {name: 'Misdirect', reward: 0}, {name: 'Sorry', reward: 3} ],
+        //     // neutral levers
+        //     [ {name: 'A', reward: 1}, {name: 'B', reward: 3}, {name: 'C', reward: 2}, {name: 'D', reward: 0}, {name: 'E', reward: 1} ],
+        //     [ {name: 'A', reward: 3}, {name: 'B', reward: 1}, {name: 'C', reward: 2}, {name: 'D', reward: 0}, {name: 'E', reward: 1} ],
+        //     [ {name: 'A', reward: 1}, {name: 'B', reward: 2}, {name: 'C', reward: 3}, {name: 'D', reward: 0}, {name: 'E', reward: 1} ],
+        //     [ {name: 'A', reward: 1}, {name: 'B', reward: 0}, {name: 'C', reward: 2}, {name: 'D', reward: 3}, {name: 'E', reward: 1} ],
+        //     [ {name: 'A', reward: 1}, {name: 'B', reward: 1}, {name: 'C', reward: 2}, {name: 'D', reward: 0}, {name: 'E', reward: 3} ],
+        // ]
 
         let i = 5
 

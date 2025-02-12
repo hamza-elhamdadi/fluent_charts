@@ -52,7 +52,7 @@
             "description": "A beeswarm chart example that uses a force-directed layout to group items by category.",
             "width": plotWidth,
             "height": plotHeight,
-            "padding": {"left": 25, "right": 5, "top": 100, "bottom": 20},
+            "padding": {"left": 45, "right": 5, "top": 60, "bottom": 50},
             "autosize": "none",
 
             "title": {
@@ -65,7 +65,7 @@
             "signals": [
                 { "name": "cx", "update": "width / 2" },
                 { "name": "cy", "update": "height / 2" },
-                { "name": "radius", "value": 4 },
+                { "name": "radius", "value": 6 },
                 { "name": "collide", "value": 10 },
                 { "name": "gravityX", "value": 0.2 },
                 { "name": "gravityY", "value": 0.1 },
@@ -74,9 +74,16 @@
 
             "data": [
                 {
-                "name": "people",
-                "url": `data/${datafile}.json`,
-                "format": {"type": "json", "property": "nodes"}
+                    "name": "people",
+                    "url": `data/${datafile}.json`,
+                    "format": {"type": "json", "property": "nodes"}
+                },
+                {
+                    "name": "averages",
+                    "values": [
+                        { "x": "A", "y": 1 },
+                        { "x": "B", "y": 3  }
+                    ]
                 }
             ],
 
@@ -108,8 +115,21 @@
                 }
             ],
             "axes": [
-                { "orient": "bottom", "scale": "xscale" },
-                { "orient": "left", "scale": "yscale" }
+                {
+                    "title": 'Lever Name',
+                    "titleFontSize": afSize,
+                    "labelFontSize": afSize,
+                    "orient": "bottom", 
+                    "scale": "xscale" 
+                },
+                { 
+                    "title": 'Average Reward (per token)',
+                    "titleFontSize": afSize,
+                    "labelFontSize": afSize,
+                    "values": [0,1,2,3],
+                    "orient": "left", 
+                    "scale": "yscale" 
+                }
             ],
 
             "marks": [
@@ -119,9 +139,9 @@
                     "from": {"data": "people"},
                     "encode": {
                         "enter": {
-                        "fill": {"scale": "color", "field": "group"},
-                        "xfocus": {"scale": "xscale", "field": "group", "band": 0.5},
-                        "yfocus": {"scale": "yscale", "field": "value"}
+                            "fill": {"scale": "color", "field": "group"},
+                            "xfocus": {"scale": "xscale", "field": "group", "band": 0.5},
+                            "yfocus": {"scale": "yscale", "field": "value"}
                         },
                         "update": {
                             "size": {"signal": "pow(2 * radius, 2)"},
@@ -146,17 +166,19 @@
                 },
                 {
                     "type": "rule",
-                    "from": {"data": "people"},
+                    "from": {"data": "averages"},
                     "encode": {
-                        "enter": {
+                        "update": {
                             "color": plotColor,
-                            "size": 10,
-                            "x": {"scale": "xscale", "field": "group"},
-                            "y": {"scale": "yscale", "field": "value", "type": "quantitative", "aggregate": "mean"}
+                            // "size": {"value": 10},
+                            "strokeWidth": {"value": 4},
+                            "x": {"scale": "xscale", "field": "x", "band": 0.27},
+                            "x2": {"scale": "xscale", "field": "x", "band": 0.73},
+                            "y": {"scale": "yscale", "field": "y", "type": "quantitative"}
                         },
                         
                     },
-                }
+                },
             ]
             }
 
