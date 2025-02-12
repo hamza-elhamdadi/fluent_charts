@@ -86,39 +86,40 @@
         mark: { type: 'bar', width: {band: 0.5}},
         encoding: {
             x: {
-            field: 'name', 
-            type: 'nominal',
-            axis: {
-                title: 'Lever Name',
-                titleFontSize: afSize,
-                labelColor: plot_color,
-                labelFontSize: afSize,
-                domainColor: plot_color,
-                tickColor: plot_color,
-                titleColor: plot_color,
-                grid: false,
-                labelAngle: 0
-            }
+                field: 'name', 
+                type: 'nominal',
+                axis: {
+                  title: 'Lever Name',
+                  titleFontSize: afSize,
+                  labelColor: plot_color,
+                  labelFontSize: afSize,
+                  domainColor: plot_color,
+                  tickColor: plot_color,
+                  titleColor: plot_color,
+                  grid: false,
+                  labelAngle: 0
+                }
             },
             y: {
-            aggregate: 'average',
-            field: 'reward',
-            type: 'quantitative',
-            axis: {
-                title: 'Average Reward (per token)',
-                titleFontSize: afSize,
-                labelFontSize: afSize,
-                labelColor: plot_color,
-                domainColor: plot_color,
-                tickColor: plot_color,
-                titleColor: plot_color,
-                values: [0,1,2,3],
-                grid: false
-            }
+                aggregate: 'average',
+                field: 'reward',
+                type: 'quantitative',
+                axis: {
+                    title: 'Average Reward (per token)',
+                    titleFontSize: afSize,
+                    labelFontSize: afSize,
+                    labelColor: plot_color,
+                    domainColor: plot_color,
+                    tickColor: plot_color,
+                    titleColor: plot_color,
+                    values: [0,1,2,3,4],
+                    grid: false,
+                },
+                scale: { domain: [0,4] }
             },
             color: {
-            field: 'name',
-            scale: {range: [plot_color]}
+                field: 'name',
+                scale: {range: [plot_color]}
             }
         }
         };
